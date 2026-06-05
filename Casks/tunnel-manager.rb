@@ -1,6 +1,6 @@
 cask "tunnel-manager" do
-  version "0.4"
-  sha256 "190636301e5bf615eb7a59dbe8e6a6573feffef2b68cbb320cfbf978c0ce118a"
+  version "0.5"
+  sha256 "31eea4553f5d6c4627113ce5625ce30c773f95c41f9e48efbb867fe7cf6fe265"
 
   url "https://github.com/Goodmain/tunnel-manager/releases/download/v#{version}/TunnelManager.zip"
   name "Tunnel Manager"
