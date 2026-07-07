@@ -1,6 +1,6 @@
 cask "tunnel-manager" do
-  version "0.6"
-  sha256 "3e64a49fb1f3a77807962a5580df5647e20a5e5828b41c4a38836d1fb64a7ef1"
+  version "1.0"
+  sha256 "f8ccc4309dc7e8ad1a04b5c7b723fb0bc827a54324796f56afafad86b3311e70"
 
   url "https://github.com/Goodmain/tunnel-manager/releases/download/v#{version}/TunnelManager.zip"
   name "Tunnel Manager"
@@ -8,7 +8,7 @@ cask "tunnel-manager" do
   homepage "https://github.com/Goodmain/tunnel-manager"
 
   depends_on formula: "awscli"
-  depends_on cask: ["aws-vault", "session-manager-plugin"]
+  depends_on cask: "session-manager-plugin"
 
   app "TunnelManager.app"
 
